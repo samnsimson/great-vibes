@@ -113,7 +113,7 @@ function App() {
     }, []);
 
     return (
-        <div className="App p-4">
+        <div className="App">
             <Button onClick={() => setIsOpen(!isOpen)} variant="colored" color="primary">
                 Create Job
             </Button>
